@@ -1,0 +1,45 @@
+
+
+/* Style for navbar */
+.nav-section{
+    padding: 1.5rem;
+    background-color:  rgba(255, 174, 108, 0.5);
+}
+.nav-section .nav-link{
+    color: darkgreen;
+    font-size: 1.1rem;
+}
+.nav-section .rest-name{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+/* style for home page  */
+
+.home-page{
+    height: 100vh;
+    background-image: url(../images/momo.jpg);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+}
+.home-page .home-text{   
+    color: white;
+}
+.home-page .home-text p{
+    padding: 1rem;
+    width: 10rem;
+    border: 1px solid gray;
+    text-align: center;
+    margin: auto;
+}
+
+

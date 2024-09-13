@@ -1,0 +1,19 @@
+/* style for about us */
+
+
+.about-section{
+    height: 100vh;
+    background-color: rgb(200, 195, 195);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;  
+}
+.about-section .text button{
+    border: 1px solid gray;
+    background-color: rgb(200, 195, 195);
+    padding: 0.7rem 1.3rem 0.7rem 1.3rem;
+}
+.about-section .text a{
+    color: rgb(32, 101, 43);
+}

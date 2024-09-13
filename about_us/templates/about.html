@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+ {% block content %}
+
+    <div class="about-section pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text">
+                    <h4>ABOUT US</h4>
+                    <h2>Food  Festive</h2>
+                    <p>Welcome to Food Festive, where culinary excellence meets heartwarming hospitality. Nestled in the heart of the city, our restaurant has been a favorite destination for food lovers since we opened our doors in [Year Established]. At Food Festive, we believe that dining is not just about eating, but about creating unforgettable experiences that bring people together.</p>
+                    <button><a class="text-decoration-none" href="#">Read More</a></button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="{% static '../static/about_us/images/about.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+ {% endblock %}
+
+ 
